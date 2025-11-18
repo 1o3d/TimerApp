@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App - Arghya Ghosh</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <canvas id="fireworksCanvas"></canvas>
+
+    <div class="container">
+        <h1>Focus Timer</h1>
+        
+        <div id="timer-display">
+            <span id="minutes">05</span>:<span id="seconds">00</span>
+        </div>
+
+        <div class="input-group">
+            <input type="number" id="input-min" placeholder="Min" min="0" value="5">
+            <input type="number" id="input-sec" placeholder="Sec" min="0" max="59" value="0">
+        </div>
+
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause" disabled>Pause</button>
+            <button id="reset" disabled>Reset</button>
+        </div>
+
+        <div class="footer-text">
+            This timer app was made by Arghya Ghosh for ENTI333, LAB 7, at the Haskayne School of Business, University of Calgary.
+<br>Contact: ghosharghya111@gmail.com
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
